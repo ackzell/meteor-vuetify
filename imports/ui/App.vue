@@ -1,5 +1,5 @@
 <template>
- <div>
+  <div>
     <h1>{{ greeting }}!</h1>
 
     <button @click="count()">Click me!</button>
@@ -8,7 +8,7 @@
       You've clicked: {{ counter }} times.
     </p>
 
- </div>
+  </div>
 </template>
 
 <script>
@@ -21,9 +21,18 @@ export default {
   },
   methods: {
     count() {
-      this.counter++;
+      this.counter++
     }
   }
 }
 </script>
+
+<style lang="stylus">
+body
+  background-color #212121
+
+  p
+    color white
+    padding 20px
+</style>
 
