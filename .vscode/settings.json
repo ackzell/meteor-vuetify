@@ -19,5 +19,8 @@
   "vetur.validation.template": false,
   "stylusSupremacy.insertBraces": false,
   "stylusSupremacy.insertColons": false,
-  "stylusSupremacy.insertSemicolons": false
+  "stylusSupremacy.insertSemicolons": false,
+  "cSpell.words": [
+    "vuetify"
+  ]
 }

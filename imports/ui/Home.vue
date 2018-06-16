@@ -2,7 +2,7 @@
   <div>
     <h1>{{ greeting }}!</h1>
 
-    <button @click="count()">Click me!</button>
+    <v-btn @click="count()">Click me!</v-btn>
 
     <p>
       You've clicked: {{ counter }} times.

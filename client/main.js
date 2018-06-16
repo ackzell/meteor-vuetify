@@ -4,6 +4,7 @@ import Vue from 'vue'
 import AppComponent from '/imports/ui/App.vue'
 
 import routerFactory from '/client/configs/router.config'
+import '/client/configs/vuetify.config'
 
 Meteor.startup(() => {
   const router = routerFactory.create()

@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <v-app dark>
     <router-view></router-view>
-  </div>
+  </v-app>
 </template>
 
 <style lang="stylus">
