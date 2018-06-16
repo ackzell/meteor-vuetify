@@ -1,38 +1,16 @@
 <template>
   <div>
-    <h1>{{ greeting }}!</h1>
-
-    <button @click="count()">Click me!</button>
-
-    <p>
-      You've clicked: {{ counter }} times.
-    </p>
-
+    <router-view></router-view>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      greeting: 'Hello Meteor-Vue World',
-      counter: 0
-    }
-  },
-  methods: {
-    count() {
-      this.counter++
-    }
-  }
-}
-</script>
 
 <style lang="stylus">
 body
   background-color #212121
+  color white
+  font-family sans-serif
 
   p
     color white
     padding 20px
 </style>
-
