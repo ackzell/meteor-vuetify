@@ -12,6 +12,11 @@
     }
   ],
   "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-aligned"
+    }
+  },
   "emmet.includeLanguages": {
     "vue-html": "html",
     "vue": "html"
@@ -21,6 +26,9 @@
   "stylusSupremacy.insertColons": false,
   "stylusSupremacy.insertSemicolons": false,
   "cSpell.words": [
-    "vuetify"
+    "multiline",
+    "singleline",
+    "vuetify",
+    "vuex"
   ]
 }

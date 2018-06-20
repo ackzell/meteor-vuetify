@@ -1,6 +1,17 @@
 {
   "extends": ["eslint:recommended", "plugin:vue/recommended"],
   "rules": {
-    "vue/html-self-closing": "off"
+    "vue/max-attributes-per-line": [
+      2,
+      {
+        "singleline": 1,
+        "multiline": {
+          "max": 1,
+          "allowFirstLine": true
+        }
+      }
+    ],
+    "vue/html-self-closing": "off",
+    "no-console": "off"
   }
 }
