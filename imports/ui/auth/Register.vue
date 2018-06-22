@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     submitForm() {
-      this.$store.dispatch('submitRegisterForm', this.formData)
+      this.$store.dispatch('REGISTER_USER', this.formData)
     }
   }
 }

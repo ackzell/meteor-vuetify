@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     submitForm() {
-      this.$store.dispatch('submitLoginForm', this.formData)
+      this.$store.dispatch('LOGIN', this.formData)
     }
   }
 }

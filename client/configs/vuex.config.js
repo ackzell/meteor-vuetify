@@ -12,12 +12,7 @@ const store = new Vuex.Store({
   state: {
     users: []
   },
-  mutations: {
-    updateUsers(state, value) {
-      console.log('users state mutated')
-      state.users = value
-    }
-  }
+  mutations: {}
 })
 
 export default store

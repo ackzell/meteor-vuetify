@@ -1,19 +1,23 @@
 <template>
   <v-app dark>
-    <auth></auth>
-    <users></users>
-    <router-view></router-view>
+    <toolbar></toolbar>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
   </v-app>
 </template>
 
 <script>
 import Auth from '/imports/ui/auth/Auth.vue'
-import Users from '/imports/ui/Users.vue'
+import Toolbar from '/imports/ui/Toolbar.vue'
 
 export default {
   components: {
     Auth,
-    Users
+    Toolbar
+  },
+  created() {
+    this.$store.dispatch('LOAD_USER')
   }
 }
 </script>
