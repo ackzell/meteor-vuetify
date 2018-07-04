@@ -17,8 +17,9 @@
              large>
         <v-avatar size="32px"
                   tile>
-          <img src="https://vuetifyjs.com/static/doc-images/logo.svg"
-               alt="Vuetify">
+          <i class="material-icons">
+            account_circle
+          </i>
         </v-avatar>
       </v-btn>
       <v-card>
