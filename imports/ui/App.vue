@@ -2,7 +2,7 @@
   <v-app dark>
     <toolbar></toolbar>
     <v-content>
-      <router-view></router-view>
+      <router-view v-if="user"></router-view>
     </v-content>
   </v-app>
 </template>
@@ -15,6 +15,11 @@ export default {
   components: {
     Auth,
     Toolbar
+  },
+  computed: {
+    user() {
+      return this.$store.getters.currentUser
+    }
   },
   created() {
     this.$store.dispatch('LOAD_USER')

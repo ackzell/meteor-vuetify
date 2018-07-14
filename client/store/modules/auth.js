@@ -2,7 +2,7 @@ import { Meteor } from 'meteor/meteor'
 import { Accounts } from 'meteor/accounts-base'
 import { Tracker } from 'meteor/tracker'
 
-const authModule = {
+export default {
   state: {
     user: null
   },
@@ -54,5 +54,3 @@ const authModule = {
     }
   }
 }
-
-export default authModule
