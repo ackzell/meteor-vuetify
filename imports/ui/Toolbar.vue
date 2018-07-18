@@ -1,7 +1,7 @@
 <template>
   <v-toolbar color="primary"
              app>
-    <v-toolbar-title>Application</v-toolbar-title>
+    <v-toolbar-title> Tobuy list </v-toolbar-title>
     <v-spacer></v-spacer>
     <span v-if="user">
       Welcome {{ user.username }}!
